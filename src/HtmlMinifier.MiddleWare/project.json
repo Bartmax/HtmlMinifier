@@ -3,7 +3,7 @@
 	"dependencies": {
 		"Microsoft.Framework.DependencyInjection": "1.0.0-beta3",
 		"Microsoft.AspNet.Mvc": "6.0.0-beta3",
-		"HtmlMinifier": ""
+		"ZetaHtmlCompressor": ""
 	},
 
 	"frameworks": {
