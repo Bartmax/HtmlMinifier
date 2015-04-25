@@ -6,9 +6,9 @@ This middleware intercepts the Response.Body Stream and compress it using Zeta H
 Usage:
 
 ```
- public void Configure(IApplicationBuilder app)
-        {
-            app.UseHtmlMinifier();
-            ...
-        }
+public void Configure(IApplicationBuilder app)
+{
+    app.UseHtmlMinifier();
+    ...
+}
 ```
