@@ -1,20 +1,19 @@
 ﻿using Microsoft.AspNet.Builder;
-using Microsoft.AspNet.Http;
 using System.IO;
 using System.Threading.Tasks;
 using ZetaHtmlCompressor;
+using Microsoft.AspNet.Http;
 
-namespace HtmlMinifier.MiddleWare
+namespace HtmlMinifier
 {
-    public class HtmlMinifierMiddleWare
+    public class HtmlMinifierMiddleware
     {
         RequestDelegate _next;
 
-        public HtmlMinifierMiddleWare(RequestDelegate next)
+        public HtmlMinifierMiddleware(RequestDelegate next)
         {
             _next = next;
         }
-
         public async Task Invoke(HttpContext context)
         {
             using (var memoryStream = new MemoryStream())

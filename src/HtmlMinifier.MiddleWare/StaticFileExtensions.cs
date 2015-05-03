@@ -1,4 +1,4 @@
-﻿using HtmlMinifier.MiddleWare;
+﻿using HtmlMinifier;
 using System;
 
 namespace Microsoft.AspNet.Builder
@@ -8,7 +8,7 @@ namespace Microsoft.AspNet.Builder
         public static IApplicationBuilder UseHtmlMinifier(this IApplicationBuilder builder)
         {
             if (builder == null) throw new ArgumentNullException(nameof(builder));
-            builder.UseMiddleware<HtmlMinifierMiddleWare>();
+            builder.UseMiddleware<HtmlMinifierMiddleware>();
             return builder;
         }
     }

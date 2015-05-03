@@ -1,18 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.22609.0
+VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3C16826A-BF10-4815-BDA7-8DE8F232413A}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3F09A2E-042A-4482-B3F3-FD66404FF4DE}"
 	ProjectSection(SolutionItems) = preProject
 		global.json = global.json
+		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtmlMinifier.MiddleWare", "src\HtmlMinifier.MiddleWare\HtmlMinifier.MiddleWare.kproj", "{C58620C7-8168-485F-820A-5A7C8695BDB3}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "HtmlMinifier", "src\HtmlMinifier.MiddleWare\HtmlMinifier.xproj", "{C58620C7-8168-485F-820A-5A7C8695BDB3}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZetaHtmlCompressor", "src\ZetaHtmlCompressor\ZetaHtmlCompressor.kproj", "{DFBC48D3-A98B-4D03-A8C8-CFE56758CF6F}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "ZetaHtmlCompressor", "src\ZetaHtmlCompressor\ZetaHtmlCompressor.xproj", "{DFBC48D3-A98B-4D03-A8C8-CFE56758CF6F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

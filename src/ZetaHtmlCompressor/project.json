@@ -1,19 +1,19 @@
 ﻿{
-	"version": "1.0.0-*",
-	"dependencies": {
-	},
+  "version": "1.0.0-beta5-1000",
+  "dependencies": {
+  },
 
-    "frameworks" : {
-        "aspnet50" : { 
-            "dependencies": {
-            }
-        },
-        "aspnetcore50" : { 
-            "dependencies": {
-				"System.Runtime": "4.0.20-beta-22523",
-				"System.Collections": "4.0.10-beta-22605",
-				"System.Text.RegularExpressions": "4.0.10-beta-22605"
-            }
-        }
+  "frameworks": {
+    "dnx451": {
+      "dependencies": {
+      }
+    },
+    "dnxcore50": {
+      "dependencies": {
+        "System.Runtime": "4.0.20-beta-*",
+        "System.Collections": "4.0.10-beta-*",
+        "System.Text.RegularExpressions": "4.0.10-beta-*"
+      }
     }
+  }
 }
