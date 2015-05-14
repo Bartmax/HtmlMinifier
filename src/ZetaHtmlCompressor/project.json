@@ -1,5 +1,11 @@
 ﻿{
   "version": "1.0.0-beta5-1000",
+  "authors": [ "Bart Calixto" ],
+  "title": "Zeta html compressor",
+  "description": "C# port of Google’s htmlcompressor library",
+  "projectUrl": "http://blog.magerquark.de/c-port-of-googles-htmlcompressor-library/",
+  "tags": "Html, Minifier, HtmlMinifier",
+
   "dependencies": {
   },
 
