@@ -5,12 +5,13 @@
 	using System.Text;
 	using System.Text.RegularExpressions;
 
-	// Original von: https://code.google.com/p/htmlcompressor/
-	// Diese Datei von https://code.google.com/p/htmlcompressor/source/browse/trunk/src/main/java/com/googlecode/htmlcompressor/compressor/HtmlCompressor.java
-	// Tipps auf http://stackoverflow.com/questions/3789472/what-is-the-c-sharp-regex-equivalent-to-javas-appendreplacement-and-appendtail
-	// Java-Regex auf http://www.devarticles.com/c/a/Java/Introduction-to-the-Javautilregex-Object-Model/8/
 
-	/**
+    // Original von: https://code.google.com/p/htmlcompressor/
+    // Diese Datei von https://code.google.com/p/htmlcompressor/source/browse/trunk/src/main/java/com/googlecode/htmlcompressor/compressor/HtmlCompressor.java
+    // Tipps auf http://stackoverflow.com/questions/3789472/what-is-the-c-sharp-regex-equivalent-to-javas-appendreplacement-and-appendtail
+    // Java-Regex auf http://www.devarticles.com/c/a/Java/Introduction-to-the-Javautilregex-Object-Model/8/
+
+    /**
 	 * Class that compresses given HTML source by removing comments, extra spaces and 
 	 * line breaks while preserving content within &lt;pre>, &lt;textarea>, &lt;script> 
 	 * and &lt;style> tags. 
@@ -26,7 +27,7 @@
 	 * @author <a href="mailto:serg472@gmail.com">Sergiy Kovalchuk</a>
 	 */
 
-	public sealed class HtmlCompressor :
+    public sealed class HtmlCompressor :
 		ICompressor
 	{
 		//public static readonly string JS_COMPRESSOR_YUI = "yui";

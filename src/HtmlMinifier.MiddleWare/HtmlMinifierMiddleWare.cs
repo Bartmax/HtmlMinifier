@@ -1,14 +1,14 @@
-﻿using Microsoft.AspNet.Builder;
-using System.IO;
+﻿using System.IO;
 using System.Threading.Tasks;
 using ZetaHtmlCompressor;
 using Microsoft.AspNet.Http;
+using Microsoft.AspNet.Builder;
 
 namespace HtmlMinifier
 {
     public class HtmlMinifierMiddleware
     {
-        RequestDelegate _next;
+        private readonly RequestDelegate _next;
 
         public HtmlMinifierMiddleware(RequestDelegate next)
         {
@@ -50,6 +50,13 @@ namespace HtmlMinifier
         {
             var compressor = new HtmlContentCompressor();
             return compressor.Compress(responseBody);
+        }
+    }
+    public static class StaticFileExtensions
+    {
+        public static IApplicationBuilder UseHtmlMinifier(this IApplicationBuilder app)
+        {
+            return app.UseMiddleware<HtmlMinifierMiddleware>();
         }
     }
 }

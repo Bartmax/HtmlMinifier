@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-beta5-1000",
+  "version": "1.0.0-beta5-1001",
   "authors": [ "Bart Calixto" ],
   "title": "Zeta html compressor",
   "description": "C# port of Google’s htmlcompressor library",
