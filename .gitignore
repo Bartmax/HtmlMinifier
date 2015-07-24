@@ -17,6 +17,8 @@ bld/
 [Bb]in/
 [Oo]bj/
 
+*.lock.json
+
 # Roslyn cache directories
 *.ide/
 
