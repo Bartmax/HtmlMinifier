@@ -1,25 +1,17 @@
 {
-    "version": "1.0.0-beta5-1001",
-    "authors": [ "Bart Calixto" ],
-    "title": "Html Minifier Middleware for ASPNET5",
-    "description": "Html minifier middleware using Zeta Html Compressor for ASPNET5-beta5.",
-    "projectUrl": "https://github.com/Bartmax/HtmlMinifier",
-    "tags": "Html, Minifier, HtmlMinifier",
-    "dependencies": {
-        "Microsoft.Framework.DependencyInjection": "1.0.0-beta5-*",
-        "Microsoft.AspNet.Mvc.Abstractions": "6.0.0-beta5-*",
-        "ZetaHtmlCompressor": "1.0.0-beta5-1001"
-    },
+  "version": "1.0.0-beta5",
+  "authors": [ "Bart Calixto" ],
+  "title": "Html Minifier Middleware for ASPNET5",
+  "description": "Html minifier middleware using Zeta Html Compressor for ASPNET5-beta5.",
+  "projectUrl": "https://github.com/Bartmax/HtmlMinifier",
+  "tags": "Html, Minifier, HtmlMinifier",
+  "dependencies": {
+    "ZetaHtmlCompressor": "1.0.0-beta5",
+    "Microsoft.AspNet.Http.Abstractions": "1.0.0-beta5"
+  },
 
-    "frameworks": {
-        "dnx451": {
-            "dependencies": {
-            }
-        },
-        "dnxcore50": {
-            "dependencies": {
-                "System.Runtime": "4.0.20-beta-*"
-            }
-        }
-    }
+  "frameworks": {
+    "dnx451": { },
+    "dnxcore50": { }
+  }
 }

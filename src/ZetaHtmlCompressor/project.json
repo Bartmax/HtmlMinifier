@@ -1,5 +1,5 @@
 ﻿{
-  "version": "1.0.0-beta5-1001",
+  "version": "1.0.0-beta5",
   "authors": [ "Bart Calixto" ],
   "title": "Zeta html compressor",
   "description": "C# port of Google’s htmlcompressor library",
@@ -7,18 +7,18 @@
   "tags": "Html, Minifier, HtmlMinifier",
 
   "dependencies": {
+
   },
 
   "frameworks": {
-    "dnx451": {
+    "dnx451": { },
+    "dnx46": { },
+    "net451": { },
+    "net46": { },
+    "dotnet": {
       "dependencies": {
-      }
-    },
-    "dnxcore50": {
-      "dependencies": {
-        "System.Runtime": "4.0.20-beta-*",
-        "System.Collections": "4.0.10-beta-*",
-        "System.Text.RegularExpressions": "4.0.10-beta-*"
+        "System.Collections": "4.0.10-beta-23019",
+        "System.Text.RegularExpressions": "4.0.10-beta-23109"
       }
     }
   }

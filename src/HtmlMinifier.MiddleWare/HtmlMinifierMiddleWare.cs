@@ -54,9 +54,7 @@ namespace HtmlMinifier
     }
     public static class StaticFileExtensions
     {
-        public static IApplicationBuilder UseHtmlMinifier(this IApplicationBuilder app)
-        {
-            return app.UseMiddleware<HtmlMinifierMiddleware>();
-        }
+        public static IApplicationBuilder UseHtmlMinifier(this IApplicationBuilder app) 
+            => app.UseMiddleware<HtmlMinifierMiddleware>();
     }
 }
