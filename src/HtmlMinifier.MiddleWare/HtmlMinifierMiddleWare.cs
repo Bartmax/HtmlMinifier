@@ -52,9 +52,11 @@ namespace HtmlMinifier
             return compressor.Compress(responseBody);
         }
     }
-    public static class StaticFileExtensions
+    public static class HtmlMinifierMiddlewareExtensions
     {
-        public static IApplicationBuilder UseHtmlMinifier(this IApplicationBuilder app) 
-            => app.UseMiddleware<HtmlMinifierMiddleware>();
+        public static IApplicationBuilder UseHtmlMinifier(this IApplicationBuilder builder)
+        { 
+            return builder.UseMiddleware<HtmlMinifierMiddleware>();
+        }
     }
 }
